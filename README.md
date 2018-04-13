@@ -7,18 +7,58 @@ Here's the list of the tasks I've made for the course.
 
 
 ## WEEK 1:
-Mario
+### Mario
+**Task:** Implement a program that prints out a half-pyramid of a specified height, per the below.
+```
+$ ./mario
+Height: 5
+    ##
+   ###
+  ####
+ #####
+######
+```
+[mario1.c](/Week1/mario1.c)
 
-Mario2
+### Mario2
+**Task:** Implement a program that prints out a double half-pyramid of a specified height, per the below.
+```
+$ ./mario
+Height: 4
+   #  #
+  ##  ##
+ ###  ###
+####  ####
+```
+[mario2.c](/Week1/mario2.c)
 
-Cash
-
+### Cash
+**Task:** Implement a program that calculates the minimum number of coins required to give a user change.
+```
+$ ./cash
+Change owed: 0.41
+4
+```
+[cash.c](/Week1/cash.c)
 
 ## WEEK 1 (continued):
-Caesar
+### Caesar
+**Task:** Implement a program that encrypts messages using Caesar’s cipher, per the below.
+```
+$ ./caesar 13
+plaintext:  HELLO
+ciphertext: URYYB
+```
+[caesar.c](/Week1/caesar.c)
 
-Vigenère
-
+### Vigenère
+**Task:** Implement a program that encrypts messages using Vigenère cipher, per the below.
+```
+$ ./vigenere ABC
+plaintext:  HELLO
+ciphertext: HFNLP
+```
+[vigenere.c](/Week1/vigenere.c)
 
 
 
