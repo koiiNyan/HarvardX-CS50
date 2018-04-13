@@ -7,6 +7,14 @@ Here's the list of the tasks I've made for the course.
 
 
 ## WEEK 1:
+### Hello
+**Task:** Implement a program that prints out a simple greeting to the user, per the below.
+```
+$ ./hello
+hello, world
+```
+[hello.c](/Week1/hello.c)
+
 ### Mario
 **Task:** Implement a program that prints out a half-pyramid of a specified height, per the below.
 ```
