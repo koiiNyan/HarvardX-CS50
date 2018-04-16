@@ -1,4 +1,5 @@
 # HarvardX CS50 2018
+### [CS50 Library for C](https://github.com/cs50/libcs50)
 Here's the list of the tasks I've made for the course.
 
 
