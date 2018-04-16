@@ -85,4 +85,4 @@ Some stuff I was playing with (:blush:) between HarvardX Cs50's Psets.
 - [1.c](/Others/1.c)
 
 A program that calls for a string of characters as an input and outputs every character +2
-(**Examples:** 123 -> 345; 567 -> 789; 163 -> 385 etc.)
+(**Examples:** 123 -> 345; 567 -> 789; 163 -> 385; abc -> cde etc.)
