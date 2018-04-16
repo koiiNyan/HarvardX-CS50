@@ -28,15 +28,15 @@ int main(void)
     for (int i = 2; i < length + 2; i += 2)
     {
         long long point = pow(10, i); //funt pow - returns i raised to the power of 10
-        int current_num = (cc_number % point) / (point / 10);
-        int product = current_num * 2; //multiplying every other digit
+        int current_num = (cc_number % point) / (point / 10); //start counting from the 2nd last digit
+        int product = current_num * 2; //multiplying every other digit by 2
         sum_of_digits += product / 10 + product % 10;
     }
     // Add every other digit to the total sum of digits, starting from the last digit.
     for (int i = 1; i <= length; i += 2)
     {
         long long point = pow(10, i);
-        int current_num = (cc_number % point) / (point / 10);
+        int current_num = (cc_number % point) / (point / 10); //counting from last digit.
         sum_of_digits += current_num;
     }
 
