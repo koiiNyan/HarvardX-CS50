@@ -27,7 +27,7 @@ int main(void)
     // Add all the sums of the products' digits together
     for (int i = 2; i < length + 2; i += 2)
     {
-        long long point = pow(10, i); //funt pow - returns i raised to the power of 10
+        long long point = pow(10, i); //funt pow - returns 10 raised to the power of i
         int current_num = (cc_number % point) / (point / 10); //start counting from the 2nd last digit
         int product = current_num * 2; //multiplying every other digit by 2
         sum_of_digits += product / 10 + product % 10;
