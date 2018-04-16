@@ -49,6 +49,15 @@ Change owed: 0.41
 ```
 [cash.c](/Week1/cash.c)
 
+### Credit
+**Task:** Implement a program that determines whether a provided credit card number is valid according to Luhn’s algorithm.
+```
+$ ./credit
+Number: 378282246310005
+AMEX
+```
+[credit.c](/Week1/credit.c)
+
 ## WEEK 1 (continued):
 ### Caesar
 **Task:** Implement a program that encrypts messages using Caesar’s cipher, per the below.
