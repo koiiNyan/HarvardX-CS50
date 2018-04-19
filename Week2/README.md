@@ -4,8 +4,13 @@ In [`bday.txt`](https://github.com/ovinnikova/HarvardX-CS50/blob/master/Week2/bd
 
 ### helpers.c
 ## `is_rest`
-Complete the implementation of is_rest in [helpers.c](Week2/helpers.c). Recall that blank lines represent rests in our machine-readable format. And recall that synthesize will call this function in order to determine if one of the lines a user has typed in is indeed blank.
+Complete the implementation of is_rest in [helpers.c](https://github.com/ovinnikova/HarvardX-CS50/blob/master/Week2/helpers.c). Recall that blank lines represent rests in our machine-readable format. And recall that synthesize will call this function in order to determine if one of the lines a user has typed in is indeed blank.
 
+## `duration`
+Complete the implementation of duration in [helpers.c](https://github.com/ovinnikova/HarvardX-CS50/blob/master/Week2/helpers.c). Recall that this function should take as input as a string a fraction and convert it into some integral number of eighths. You may assume that duration will only be passed a string formatted as X/Y, whereby each of X and Y is a positive decimal digit, and Y is, moreover, a power of 2.
+
+## `frequency`
+Finally, complete the implementation of frequency in [helpers.c](https://github.com/ovinnikova/HarvardX-CS50/blob/master/Week2/helpers.c). Recall that this function should take as input as a string a note (e.g., A4) and return its corresponding frequency in hertz as an int.
 
 To compile both notes and synthesize, execute
 ```
