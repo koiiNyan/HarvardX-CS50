@@ -1,6 +1,6 @@
-//A program that prints out each 3rd letter of the word in the string, if it is a digit, there goes a smiley(s), if there's a blank -
+//A program that prints out each 3rd letter of the input, if it is a digit, there goes a smiley(s), if there's a blank -
 //the program understands that there goes a new word and starts
-//counting the 3rd letter of the next word.
+//counting the 3rd letter, counting from the next character.
 
 #include <cs50.h>
 #include <stdio.h>
