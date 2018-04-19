@@ -1,3 +1,12 @@
+### Specification
+## `bday.txt`
+In [`bday.txt`](https://github.com/ovinnikova/HarvardX-CS50/blob/master/Week2/bday.txt), type the ASCII representation of Happy Birthday, translating its sheet music to the machine-readable representation.
+
+### helpers.c
+## `is_rest`
+Complete the implementation of is_rest in [helpers.c](Week2/helpers.c). Recall that blank lines represent rests in our machine-readable format. And recall that synthesize will call this function in order to determine if one of the lines a user has typed in is indeed blank.
+
+
 To compile both notes and synthesize, execute
 ```
 make
