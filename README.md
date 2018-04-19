@@ -78,6 +78,15 @@ ciphertext: HFNLP
 ```
 [vigenere.c](/Week1/vigenere.c)
 
+## WEEK 2:
+### Music
+**Task:** 
+- Learn to read sheet music.
+- Learn to read code.
+- Convert musical notes to frequencies.
+- Synthesize songs.
+
+[Music](/Week2/)
 
 
 ## OTHERS:
