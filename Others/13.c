@@ -1,3 +1,5 @@
+//A program that tells the month of your birth
+
 #include <stdio.h>
 
 int main (void)
