@@ -58,6 +58,8 @@ int padding = (4 - (bi.biWidth * sizeof(RGBTRIPLE)) % 4) % 4;
 
 padding = ( 4 - (3 * 3) % 4) % 4 = (4 - 9 % 4) % 4 = (4 - 1) % 4 = 3 % 4 = 3.
 
+(The size of RGBtriple is always 3 bytes)
+
 
 ## What does `fseek` do?
 
