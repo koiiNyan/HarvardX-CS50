@@ -11,7 +11,6 @@ dime = 10
 nickel = 5
 penny = 1
 
-print(rounded_changed_owed_cents)
 
 if rounded_changed_owed_cents >= quarter:
     number_of_coins = floor(rounded_changed_owed_cents / quarter)
