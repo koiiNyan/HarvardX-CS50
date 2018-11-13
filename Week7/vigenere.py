@@ -4,7 +4,7 @@ import sys
 
 # Check for correct number of command line arguments
 if len(sys.argv) != 2 or not sys.argv[1].isalpha():
-    print('Usage: python caesar.py key (key is a character(s)')
+    print('Usage: python vigenere.py key (key is a character(s)')
     sys.exit(1)
 
 # get the key
