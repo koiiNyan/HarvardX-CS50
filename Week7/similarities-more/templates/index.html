@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+    <!-- TODO -->
+    <form action="/score" method="post" style="width:800px">
+        <div class="form-group">
+            <input id="textbox" name="string1" type="text">
+        </div>
+        <div class="form-group">
+            <input id="textbox" name="string2" type="text">
+        </div>
+            <button class="btn btn-outline-primary btn-block" type="submit">COMPARE!</button>
+    </form>
+
+{% endblock %}

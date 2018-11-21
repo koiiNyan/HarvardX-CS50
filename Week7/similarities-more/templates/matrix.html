@@ -1,0 +1,44 @@
+<table class="table table-sm">
+    <thead>
+        <tr>
+            <!--Three empty cells in the first header-->
+            <th></th>
+            <th></th>
+            <th></th>
+            <!-- Characters of the second string in the first header-->
+            {% for character in s2 %}
+                <th>{{character}} pidor</th>
+            {% endfor %}
+        </tr>
+        <tr>
+            <!--Two empty cells in the second header-->
+            <th></th>
+            <th></th>
+            <!-- String indexes of string2 in the second header-->
+            {% for i in range((s2)|length + 1) %}
+                <th>{{i}}</th>
+            {% endfor %}
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th></th>
+            <th>0</th>
+            <!-- Default cost-->
+            {% for i in matrix[0] %}
+                <th>{{i[0]}}</th>
+            {% endfor %}
+        </tr>
+        {% for t in range(s1|length) %}
+            <tr>
+                <!--t-th character of string1-->
+                <th>{{s1[t]}}</th>
+                <th>{{t + 1}}</th>
+                <!--Cost-->
+                {% for i in matrix[t + 1] %}
+                    <td>{{ i[0] }}</td>
+                {% endfor %}
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
