@@ -119,3 +119,17 @@ $ ./resize 4 small.bmp large.bmp
 ```
 [Resize(More)](/Week3/more/resize)
 
+### Recover
+**Task:** Implement a program that recovers JPEGs from a forensic image, per the below.
+```
+$ ./recover
+Usage: ./recover image
+$ echo $?
+1
+```
+```
+$ ./recover card.raw
+$ echo $?
+0
+```
+[Recover](/Week3/recover)
