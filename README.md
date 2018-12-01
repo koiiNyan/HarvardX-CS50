@@ -7,7 +7,7 @@ Here's the list of the tasks I've made for the course.
 [Link to my project in Scratch](https://scratch.mit.edu/projects/210970429/)
 
 
-## WEEK 1:
+## WEEK 1: C
 ### Hello
 **Task:** Implement a program that prints out a simple greeting to the user, per the below.
 ```
@@ -59,7 +59,7 @@ AMEX
 ```
 [credit.c](/Week1/credit.c)
 
-## WEEK 1 (continued):
+## WEEK 1 (continued): Crypto
 ### Caesar
 **Task:** Implement a program that encrypts messages using Caesar’s cipher, per the below.
 ```
@@ -86,7 +86,7 @@ rofl
 ```
 [crack.c](/Week1/crack.c)
 
-## WEEK 2:
+## WEEK 2: Music
 ### Music
 **Task:** 
 - Learn to read sheet music.
@@ -96,7 +96,7 @@ rofl
 
 [Music](/Week2/)
 
-## WEEK 3:
+## WEEK 3: Forensics
 ### Whodunit
 **Task:** Answer some questions and then implement a program that reveals a hidden message in a BMP, per the below.
 ```
@@ -134,7 +134,7 @@ $ echo $?
 ```
 [Recover](/Week3/recover)
 
-## WEEK 4:
+## WEEK 4: Mispellings
 ### Speller
 **Task:** Implement a program that spell-checks a file, per the below.
 ```
@@ -190,3 +190,8 @@ TIME IN TOTAL:
 2. Implement a web app that depicts the costs of transforming one string into another.
 
 [Similarities(More)](/Week7/similarities-more)
+
+## WEEK 8: C$50 Finance
+### Sentimental
+**Task:** Implement a website via which users can "buy" and "sell" stocks,
+[C$50 Finance](/Week8)
