@@ -193,5 +193,6 @@ TIME IN TOTAL:
 
 ## WEEK 8: C$50 Finance
 ### Sentimental
-**Task:** Implement a website via which users can "buy" and "sell" stocks,
+**Task:** Implement a website via which users can "buy" and "sell" stocks.
+
 [C$50 Finance](/Week8)
