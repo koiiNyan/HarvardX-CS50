@@ -133,3 +133,36 @@ $ echo $?
 0
 ```
 [Recover](/Week3/recover)
+
+## WEEK 4:
+### Speller
+**Task:** Implement a program that spell-checks a file, per the below.
+```
+$ ./speller texts/lalaland.txt
+MISSPELLED WORDS
+
+[...]
+AHHHHHHHHHHHHHHHHHHHHHHHHHHHT
+[...]
+Shangri
+[...]
+fianc
+[...]
+Sebastian's
+[...]
+
+WORDS MISSPELLED:
+WORDS IN DICTIONARY:
+WORDS IN TEXT:
+TIME IN load:
+TIME IN check:
+TIME IN size:
+TIME IN unload:
+TIME IN TOTAL:
+```
+[Speller](/Week4)
+
+## WEEK 7: Déjà vu
+### Sentimental
+**Task:** Implement the below exactly as specified but in Python
+- [hello.py](/Week7/hello.py)
