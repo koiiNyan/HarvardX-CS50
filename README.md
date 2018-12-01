@@ -78,6 +78,14 @@ ciphertext: HFNLP
 ```
 [vigenere.c](/Week1/vigenere.c)
 
+### Crack
+**Task:** Implement a program that cracks passwords, per the below.
+```
+$ ./crack 50fkUxYHbnXGw
+rofl
+```
+[crack.c](/Week1/crack.c)
+
 ## WEEK 2:
 ### Music
 **Task:** 
@@ -88,52 +96,3 @@ ciphertext: HFNLP
 
 [Music](/Week2/)
 
-
-## OTHERS:
-Some stuff I was playing with (:blush:) between HarvardX Cs50's Psets.
-
-- [1.c](/Others/1.c)
-
-A program that calls for a string of characters as an input and outputs every character +2
-(**Examples:** 123 -> 345; 567 -> 789; 163 -> 385; abc -> cde etc.)
-
-- [2.c](/Others/2.c)
-
-A program that outputs every 2nd character of the string.
-
-- [3.c](/Others/3.c)
-
-A program that asks for your name, prints it out, then gets your next answer, if it is one of 2 possible answers,
-you get a motivation sentence, if not, you get a smiley.
-
-- [4.c](/Others/4.c)
-
-A program that prints out each 3rd letter of the input.
-
-- [5.c](/Others/5.c)
-
-A simple +/- calculator, that asks for 2 ints and then asks either you want to do a plus or a minus calculation.
-
-- [6.c](/Others/6.c)
-
-A program that capitalizes the 1rst letter in the word.
-
-- [7.c](/Others/7.c)
-
-A program that checks if the user prints a positive or a negative number.
-
-- [8.c](/Others/8.c)
-
-A program that counts the number of characters in the string.
-
-- [9.c](/Others/9.c)
-
-A program that converts the letter to ASCII number.
-
-- [10.c](/Others/10.c)
-
-A program that checks if the letter is a vowel or a consonant.
-
-- [11.c](/Others/11.c)
-
-A program that calculates sigma and factorial of a number.
