@@ -177,14 +177,18 @@ TIME IN TOTAL:
 
 ### Similarities (Less)
 **Task:** 
+
 1)Implement a program that compares two files for similarities.
+
 2)Implement a website that highlights similarities across files, a la the below.
 
 [Similarities(Less)](/Week7/less)
 
 ### Similarities (More)
 **Task:** 
+
 1)Implement a program that measures the edit distance between two strings.
+
 2)Implement a web app that depicts the costs of transforming one string into another.
 
 [Similarities(More)](/Week7/similarities-more)
