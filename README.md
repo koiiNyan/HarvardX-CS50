@@ -96,3 +96,19 @@ rofl
 
 [Music](/Week2/)
 
+## WEEK 3:
+### Whodunit
+**Task:** Answer some questions and then implement a program that reveals a hidden message in a BMP, per the below.
+```
+$ ./whodunit clue.bmp verdict.bmp
+```
+[Whodunit](/Week3/whodunit)
+
+### Resize (Less)
+**Task:** Implement a program that resizes BMPs, per the below.
+```
+$ ./resize 4 small.bmp large.bmp
+```
+[Resize(Less)](/Week3/resizeless)
+
+
