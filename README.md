@@ -111,4 +111,11 @@ $ ./resize 4 small.bmp large.bmp
 ```
 [Resize(Less)](/Week3/resizeless)
 
+### Resize (More)
+**Task:** Implement a program that resizes BMPs, per the below.
+```
+$ ./resize .25 large.bmp small.bmp
+$ ./resize 4 small.bmp large.bmp
+```
+[Resize(More)](/Week3/more/resize)
 
