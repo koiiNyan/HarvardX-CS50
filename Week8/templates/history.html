@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+<table class="table table-sm">
+    <thead>
+        <tr>
+            <th>Symbol</th>
+            <th>Shares</th>
+            <th>Price</th>
+            <th>Date</th>
+            <th>Action</th>
+        </tr>
+
+    </thead>
+    <tbody>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+            {% for i in range(symbols|length) %}
+            <tr>
+                <td>{{ symbols[i] }}</td>
+                <td>{{ amount[i] }}</td>
+                <td>{{ price[i]  | usd }}</td>
+                <td>{{ date[i] }}</td>
+                <td>{{ action[i] }}</td>
+
+
+                {% endfor %}
+            </tr>
+    </tbody>
+</table>
+{% endblock %}

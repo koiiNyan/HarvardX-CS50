@@ -1,0 +1,65 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Summary of shares
+{% endblock %}
+
+{% block main %}
+<table class="table table-sm">
+    <thead>
+        <tr>
+            <th>Symbol</th>
+            <th>Name</th>
+            <th>Shares</th>
+            <th>Curr price for 1 stock</th>
+            <th>Total curr price</th>
+        </tr>
+
+    </thead>
+    <tbody>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+            {% for i in range(symbols|length) %}
+            <tr>
+                <td>{{ symbols[i] }}</td>
+                <td>{{ names[i] }}</td>
+                <td>{{ amount[i] }}</td>
+                <td>{{ curr_each[i] | usd }}</td>
+                <td>{{ curr_tot[i] | usd }}</td>
+
+                {% endfor %}
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><b>CURRENT CASH:</b> {{ user_cash }}</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><b>TOTAL BALANCE:</b> {{ tot_bal }}</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+                <form action="/" method="post">
+                    <div class="form-group">
+                        <input autocomplete="off" class="form-control" min="10" max="5000" name="add_cash" placeholder="Cash" type="number">
+                    </div>
+                    <button class="btn btn-primary" type="submit">Add cash</button>
+                </form>
+            </td>
+        </tr>
+    </tbody>
+</table>
+{% endblock %}
