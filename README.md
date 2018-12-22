@@ -192,7 +192,13 @@ TIME IN TOTAL:
 [Similarities(More)](/Week7/similarities-more)
 
 ## WEEK 8: C$50 Finance
-### Sentimental
+### C$50 Finance
 **Task:** Implement a website via which users can "buy" and "sell" stocks.
 
 [C$50 Finance](/Week8)
+
+## WEEK 9: Mashup
+### Mashup
+**Task:** Implement a website that lets users search for articles atop a map.
+
+[Mashup](/Week9/mashup)
